@@ -3,6 +3,7 @@ Discussion for week 7
 
 Using Jeliot, execute the following algorithm which implements a buffer pool algorithm. The algorithm offers options for three different heuristics including LRU, LFU, and FIFO.
 
+```java
 import Prog1Tools.IOTools;
 import java.util.*;
 
@@ -233,6 +234,7 @@ class replacepage
                     }
              }
      }
+```
 
 The algorithm will request the following information to be entered.
 
